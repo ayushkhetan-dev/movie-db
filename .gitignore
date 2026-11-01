@@ -1,0 +1,19 @@
+   # secrets
+   .env
+   .env.*
+   !.env.example
+
+   # frontend
+   node_modules/
+   dist/
+
+   # backend (Python)
+   __pycache__/
+   *.pyc
+   .venv/
+   venv/
+
+   # OS / editor
+   .DS_Store
+   .vscode/
+   .idea/
